@@ -23,3 +23,18 @@ console.log("\nYour quest: Defeat the dragon in the mountains!");
 playerName = readline.question("\nWhat is your name, brave adventurer? ");
 console.log("\nWelcome, " + playerName + "!");
 console.log("You start with " + playerGold + " gold.");
+
+// game mechanics code block
+// Weapon damage variable and messages
+let weaponDamage = 0;
+console.log("Weapon damage currently " + weaponDamage + ".");
+console.log("When you buy a sword, weapon damage will increase to 10!");
+
+//Monster Defense variable and messages
+let monsterDefense = 5;
+console.log("Monster defense currently " + monsterDefense + ".");
+console.log("Monsters can withstand some damage in combat!");
+
+// Healing Potion variable and messages
+let healingPotionValue = 30;
+console.log("Healing potion restores " + healingPotionValue + " health points.");
